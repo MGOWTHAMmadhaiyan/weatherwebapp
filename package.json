@@ -1,0 +1,25 @@
+{
+  "name": "weatherApp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "element-plus": "2.2.17",
+    "firebase": "^10.4.0",
+    "sass": "^1.62.1",
+    "vue": "^3.2.47",
+    "vue-i18n": "^9.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "unplugin-element-plus": "^0.7.1",
+    "vite": "^4.3.4"
+  }
+}
