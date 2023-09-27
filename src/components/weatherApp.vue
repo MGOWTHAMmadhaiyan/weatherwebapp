@@ -55,7 +55,7 @@ export default {
     onMounted(() => {
       base.cityName = 'chennai',
       getWeatherDetails(base.cityName)
-
+      console.log('mounted')
     })
 
     const getWeatherDetails = async (cityName) => {
